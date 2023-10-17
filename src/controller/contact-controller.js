@@ -49,7 +49,7 @@ const remove = async (req, res, next) => {
 
         await contactService.remove(user, contactId);
         res.status(200).json({
-            data: "OK"
+            message: "Kontak berhasil dihapus"
         })
     } catch (e) {
         next(e);
