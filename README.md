@@ -15,7 +15,7 @@
 ### Cara menjalankan aplikasi
 1. Lakukan konfigurasi pada file ```.env``` terutama bagian```DATABASE_URL```, sesusaikan di laptop/pc masing-masing
 2. Pastikan sudah melakukan instalasi dependencies dengan menjalankan command ```npm install```
-3. Jalankan command ```npx prisma db push``` untuk membuat table-table di database local sesuai ```DATABASE_URL`` yang sudah dituliskan sebelumnya
+3. Jalankan command ```npx prisma db push``` untuk membuat table-table di database local sesuai ```DATABASE_URL``` yang sudah dituliskan sebelumnya
 4. Jalankan aplikasi dengan command ```npm run dev```
 
 <hr>
